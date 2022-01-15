@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Dongle&family=Nanum+Brush+Script&display=swap')
+	;
+
+body {
+	min-height: 98vh;
+	background-color: #f1dfd1;
+	background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Nanum Brush Script', cursive;
+}
+input{
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Nanum Brush Script', cursive;
+}
+
+img {
+	width: 285px;
+	height: 260px;
+	border-radius: 20px;
+}
+
+#job {
+	position: absolute;
+	top: 30%;
+	left: 3.3%;
+}
+
+#ssam {
+	position: absolute;
+	top: 30%;
+	left: 23%;
+}
+
+#beef {
+	position: absolute;
+	top: 30%;
+	left: 42.5%;
+}
+
+#je6 {
+	position: absolute;
+	top: 30%;
+	left: 62%;
+}
+
+#jang {
+	position: absolute;
+	top: 30%;
+	left: 82%;
+}
+
+#stName {
+	position: absolute;
+	top: 5%;
+	left: 13%;
+	font-size: 50pt;
+	font-weight: 800;
+	width: 20%;
+	height: 50px;
+}
+
+.check {
+	margin: 15px 0 0 10px;
+	width: 18%;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.number {
+	text-align: center;
+	margin: 0 0 0 145px;
+	width: 15%;
+	height: 50px;
+	font-size: 20pt;
+	font-weight:600;
+	border-radius: 10px;
+	padding: 0 0 0 10px;
+}
+
+#purchase {
+	position: absolute;
+	top: 88%;
+	left: 35%;
+	width: 30%;
+	height: 90px;
+	font-weight: 700;
+	font-size: 50px;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 2px solid #f5e3e6;
+	background-color: #f1dfd1;
+	background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px
+		10px 10px;
+}
+
+.packing {
+	position: absolute;
+	top: 7%;
+	left: 58%;
+	width: 8%;
+	height: 40px;
+}
+
+#pName {
+	position: absolute;
+	top: 7.5%;
+	right: 30.5%;
+	width: 5%;
+	height: 50px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 27pt;
+}
+
+.reservasion {
+	position: absolute;
+	top: 7%;
+	left: 70%;
+	width: 8%;
+	height: 40px;
+}
+
+#rName {
+	position: absolute;
+	top: 7.3%;
+	right: 18.3%;
+	width: 5%;
+	height: 50px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 27pt;
+}
+
+.menuList {
+	width: 98%;
+	height: 590px;
+	font-weight: 800;
+	font-size: 17pt;
+	border: 15px solid #e8dacc;
+	border-radius: 10px;
+}
+
+.menuName {
+	margin: 300px 0 0 0;
+	text-align: center;
+	font-weight: 800;
+	font-size: 26pt;
+	text-align: center;
+}
+
+.menuPrice {
+	margin: 30px 0 0 0;
+	text-align: center;
+	font-weight: 700;
+	font-size: 23pt;
+}
+
+.state {
+	margin: 20px 0 0 88px;
+	width: 30%;
+	height: 30px;
+	text-align: right;
+	font-weight: 800;
+	font-size: 20pt;
+	color: red;
+}
+
+#list {
+	margin: 0 0 0 10px;
+	position: absolute;
+	top: 20%;
+	width: 98%;
+	height: 600px;
+	display: flex;
+	position: absolute;
+}

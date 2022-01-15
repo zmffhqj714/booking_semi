@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>카테고리창</title>
+<link rel="stylesheet" type="text/css" href="Resource/main2.css" />
+<script src="Resource/resource.js"></script>
+</head>
+
+<body>
+
+	<div class=log>
+		<form action="CUAccessOut" name="culog" method="post">
+			<input type="submit" class="lno" value="LOGOUT" />
+		</form>
+	</div>
+
+	<div class=item>
+		<div id="japan">
+			<img src="image/jf.jpg">
+		</div>
+		<div id="korea">
+			<img src="image/kfo.png">
+		</div>
+		<div id="china">
+			<img src="image/cf.png">
+		</div>
+	</div>
+
+	<div class=item>
+
+		<form action="Food" name="jf" method="post">
+			<input type="submit" id=mebtn class="j" name="Ca1" value="J1" />
+		</form>
+		<form action="Food" name="kf" method="post">
+			<input type="submit" id=mebtn class="k" name="Ca1" value="K1" />
+		</form>
+		<form action="Food" name="cf" method="post">
+			<input type="submit" id=mebtn class="c" name="Ca1" value="C1" />
+		</form>
+	</div>
+	<div class="jf">Japanese Food</div>
+	<div class="kf">Korean Food</div>
+	<div class="cf">Chinese Food</div>
+
+
+</body>
+</html>

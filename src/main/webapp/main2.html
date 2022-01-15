@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>카테고리창</title>
+<link rel="stylesheet" type="text/css" href="Resource/main2.css" />
+<script src="Resource/resource.js"></script>
+</head>
+
+<body>
+
+	<div class=log>
+		<form action="CUAccess" name="culog" method="post">
+			<input type="submit" class="ln" value="LOGIN" />
+		</form>
+		<form action="MAAccess" name="sllog" method="post">
+			<input type="submit" class="stln" value="STORE LOGIN" />
+		</form>
+	</div>
+
+	<div class=item>
+		<div id="japan">
+			<img src="image/jf.jpg">
+		</div>
+		<div id="korea">
+			<img src="image/kfo.png">
+		</div>
+		<div id="china">
+			<img src="image/cf.png">
+		</div>
+	</div>
+
+	<div class=item>
+
+		<div name="jf">
+			<input type="submit" id=mebtn class="j" name="jf1" value="J1"
+				onClick="plzlogin()" />
+		</div>
+		<div name="kf">
+			<input type="submit" id=mebtn class="k" name="kf1" value="K1"
+				onClick="plzlogin()" />
+		</div>
+		<div name="cf">
+			<input type="submit" id=mebtn class="c" name="cf1" value="C1"
+				onClick="plzlogin()" />
+		</div>
+	</div>
+	<div class="jf">Japanese Food</div>
+	<div class="kf">Korean Food</div>
+	<div class="cf">Chinese Food</div>
+
+
+</body>
+
+
+</html>
